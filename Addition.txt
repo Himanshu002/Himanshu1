@@ -1,1 +1,9 @@
-
+import java.util.Scanner
+Class Addnumbers{
+int x,y,z;
+System.out.println("enter two numbers to calculate their sum");
+Scanner in=new Scanner(System.in)
+x=in.nextint();
+y=in.nextint();
+x=x*y;
+System.out.println("sum of entered numbers="+z);
